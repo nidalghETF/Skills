@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/distributed-tracer",
+  "version": "1.0.0",
+  "description": "Track request flows across services with distributed tracing",
+  "main": "index.js",
+  "dependencies": {
+    "jaeger-client|zipkin": "^1.0.0"
+  }}
+}

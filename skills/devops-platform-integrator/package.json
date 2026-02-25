@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/devops-platform-integrator",
+  "version": "1.0.0",
+  "description": "Integrate with GitHub, Linear, and Jira for development workflow",
+  "main": "index.js",
+  "dependencies": {
+    "github-api|linear-sdk|jira-client": "^1.0.0"
+  }}
+}

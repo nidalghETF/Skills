@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/database-adapter-manager",
+  "version": "1.0.0",
+  "description": "Manage SQLite with WAL mode, foreign keys, and connection pooling",
+  "main": "index.js",
+  "dependencies": {
+    "sqlite3": "^1.0.0"
+  }}
+}

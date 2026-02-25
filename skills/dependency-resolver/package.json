@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/dependency-resolver",
+  "version": "1.0.0",
+  "description": "Resolve skill dependencies using .clawdhub/lock.json and handle version conflicts",
+  "main": "index.js",
+  "dependencies": {
+    "semver": "^1.0.0"
+  }}
+}

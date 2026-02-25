@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/deadlock-detector",
+  "version": "1.0.0",
+  "description": "Detect concurrency issues with deadlock and race condition analysis",
+  "main": "index.js",
+  "dependencies": {
+    "race-detector": "^1.0.0"
+  }}
+}

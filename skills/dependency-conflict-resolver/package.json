@@ -1,0 +1,10 @@
+{
+  "name": "@openclaw-skills/dependency-conflict-resolver",
+  "version": "1.0.0",
+  "description": "Resolve version compatibility conflicts during upgrades",
+  "main": "index.js",
+  "dependencies": {
+    "semver": "^1.0.0",
+    "npm": "^1.0.0"
+  }}
+}

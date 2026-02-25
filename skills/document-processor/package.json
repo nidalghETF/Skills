@@ -1,0 +1,11 @@
+{
+  "name": "@openclaw-skills/document-processor",
+  "version": "1.0.0",
+  "description": "Process PDF, Office, Markdown documents for ingestion",
+  "main": "index.js",
+  "dependencies": {
+    "pdf-parse": "^1.0.0",
+    "mammoth": "^1.0.0",
+    "marked": "^1.0.0"
+  }}
+}
