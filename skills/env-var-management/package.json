@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/env-var-management",
+  "version": "1.0.0",
+  "description": "Manage OPENCLAW_* environment variables with dotenv integration and precedence resolution",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^1.0.0"
+  }}
+}

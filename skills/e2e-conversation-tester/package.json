@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/e2e-conversation-tester",
+  "version": "1.0.0",
+  "description": "Validate end-to-end conversation flows",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer|playwright": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/error-code-classifier",
+  "version": "1.0.0",
+  "description": "Classify errors and map to resolutions from common error database",
+  "main": "index.js",
+  "dependencies": {
+    "error-database": "^1.0.0"
+  }}
+}

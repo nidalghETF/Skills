@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/event-trigger-manager",
+  "version": "1.0.0",
+  "description": "Configure triggers for file changes, webhooks, and time-based events",
+  "main": "index.js",
+  "dependencies": {
+    "chokidar": "^1.0.0"
+  }}
+}

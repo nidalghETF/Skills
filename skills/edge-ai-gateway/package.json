@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/edge-ai-gateway",
+  "version": "1.0.0",
+  "description": "Configure industrial edge gateways for AI inference at the edge",
+  "main": "index.js",
+  "dependencies": {
+    "edge-ai-runtime": "^1.0.0"
+  }}
+}
