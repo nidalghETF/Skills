@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/access-log-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze access logs for security monitoring and anomaly detection",
+  "main": "index.js",
+  "dependencies": {
+    "anomaly-detection": "^1.0.0"
+  }}
+}

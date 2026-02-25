@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/audio-format-converter",
+  "version": "1.0.0",
+  "description": "Convert between MP3, M4A, WAV formats with normalization",
+  "main": "index.js",
+  "dependencies": {
+    "ffmpeg": "^1.0.0"
+  }}
+}

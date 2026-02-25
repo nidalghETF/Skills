@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/agent-communication-protocol",
+  "version": "1.0.0",
+  "description": "Manage inter-agent messaging with secure communication protocols",
+  "main": "index.js",
+  "dependencies": {
+    "message-queue": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/ai-safety-guardian",
+  "version": "1.0.0",
+  "description": "Monitor and mitigate AI bias with responsible AI guidelines",
+  "main": "index.js",
+  "dependencies": {
+    "fairness-metrics": "^1.0.0"
+  }}
+}

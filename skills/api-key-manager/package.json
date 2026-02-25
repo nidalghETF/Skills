@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/api-key-manager",
+  "version": "1.0.0",
+  "description": "Manage API keys in ~/.openclaw/credentials/ with key isolation and scoping",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "^1.0.0"
+  }}
+}

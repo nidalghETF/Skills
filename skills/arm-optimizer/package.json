@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/arm-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize for Raspberry Pi and ARM64 devices with reduced resource footprint",
+  "main": "index.js",
+  "dependencies": {
+    "arm-compiler": "^1.0.0"
+  }}
+}

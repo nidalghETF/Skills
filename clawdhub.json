@@ -1,0 +1,1604 @@
+{
+  "name": "openclaw-sysadmin-skills",
+  "description": "171 production-ready system administration skills for OpenClaw",
+  "version": "1.0.0",
+  "openclaw_min_version": "2026.2.13",
+  "author": "OpenClaw SysAdmin Community",
+  "license": "MIT",
+  "repository": "https://github.com/your-org/openclaw-sysadmin-skills",
+  "verified_sources": [
+    "https://github.com/openclaw/openclaw",
+    "https://github.com/centminmod/explain-openclaw",
+    "https://securitybrief.co.uk/story/bitdefender-warns-openclaw-ai-skills-rife-with-malware",
+    "OpenClaw Agent Mastery Index v4.1"
+  ],
+  "bundles": {
+    "priority-5-critical": {
+      "description": "32 critical sysadmin skills - security, backups, monitoring",
+      "skills": ["config-schema-validation", "env-var-management", "daemon-manager", "container-lifecycle-manager", "health-check-automation", "skill-manifest-validator", "clawdhub-package-manager", "sandbox-manager", "llm-provider-manager", "model-routing-manager", "secret-rotation", "api-key-manager", "input-sanitization-filter", "sandbox-security-manager", "audit-log-aggregator", "vulnerability-scanner", "security-audit-runner", "supply-chain-validator", "bitdefender-skills-checker", "database-adapter-manager", "scheduling-engine", "error-retry-manager", "automated-backup", "disaster-recovery-manager", "disk-space-monitor", "diagnostic-command-runner", "rollback-automation", "pii-detection-redactor", "security-boundary-enforcer", "security-hardening-checklist", "disaster-recovery-playbook", "bitdefender-predeploy-checker"]
+    },
+    "priority-4-important": {
+      "description": "81 important daily operations skills",
+      "skills": ["runtime-param-optimization", "state-persistence-manager", "event-bus-monitor", "volume-mount-strategy", "network-topology-design", "reverse-proxy-integration", "hf-spaces-deployer", "rest-api-manager", "websocket-server-manager", "webhook-manager", "rate-limit-enforcer", "acp-protocol-manager", "image-video-processor", "dynamic-skill-loader", "dependency-resolver", "tool-calling-protocol", "local-model-deployer", "token-budget-optimizer", "embedding-model-manager", "provider-configurator", "headless-browser-manager", "jwt-validator", "oauth-oidc-manager", "threat-model-analyzer", "zero-trust-config", "schema-migration-manager", "vector-store-manager", "cloud-storage-binder", "document-processor", "memory-system-manager", "event-trigger-manager", "workflow-state-machine", "parallel-executor", "cron-job-runner", "resource-cleanup-automation", "log-rotation-manager", "hf-dataset-persistence", "log-pattern-analysis", "error-code-classifier", "memory-leak-detector", "performance-bottleneck-id", "root-cause-analyzer", "context-window-manager", "version-diff-analyzer", "breaking-change-detector", "config-migration-runner", "schema-evolution-manager", "dependency-conflict-resolver", "metrics-exporter", "structured-logger", "monitoring-stack-integrator", "synthetic-monitor", "heartbeat-configurator", "logging-configurator", "data-retention-enforcer", "access-log-analyzer", "permission-boundary-validator", "compliance-checker", "anti-pattern-detector", "deployment-pattern-applier", "feature-flag-manager", "skills-discovery", "devops-platform-integrator", "communication-integrator", "cloud-storage-integrator", "channel-manager-20plus", "google-workspace-integrator", "system-prompt-architect", "agents-md-designer", "tools-md-designer", "memory-md-designer", "context-optimizer", "skill-unit-tester", "integration-tester", "e2e-conversation-tester", "regression-tester", "hierarchical-agent-manager", "task-delegator", "shared-memory-sync", "subagent-manager", "offline-first-architect"]
+    },
+    "priority-3-maintenance": {
+      "description": "58 weekly/monthly maintenance skills",
+      "skills": ["cache-layer-manager", "load-balancing-ha", "deployment-scenario-analyzer", "graphql-query-optimizer", "grpc-service-manager", "speech-to-text-manager", "text-to-speech-manager", "realtime-voice-mode", "realtime-transcription", "vad-detector", "audio-format-converter", "skill-registry-crawler", "cli-autocomplete-manager", "js-runtime-injector", "web-ui-customizer", "rich-formatter", "pwa-configurator", "tui-manager", "mobile-responsive-manager", "embedding-cache-manager", "conversation-compactor", "memory-consolidator", "conditional-logic-engine", "hitl-workflow-manager", "data-archival-manager", "garbage-collection-tuner", "stack-trace-analyzer", "deadlock-detector", "blue-green-deployer", "distributed-tracer", "cost-attribution-tracker", "ai-safety-guardian", "config-pattern-library", "performance-benchmarker", "cost-optimizer", "scalability-planner", "feature-capability-mapper", "experiment-manager", "feature-dependency-analyzer", "capability-discovery-protocol", "feature-usage-tracker", "crm-connector", "calendar-scheduler", "fathom-meeting-integrator", "soul-md-designer", "user-md-designer", "few-shot-engineer", "chain-of-thought-designer", "persona-manager", "ab-test-framework", "self-play-validator", "agent-communication-protocol", "consensus-mechanism", "arm-optimizer", "sensor-integrator", "mqtt-implementation", "edge-ai-gateway", "mobile-edge-deployer"]
+    },
+    "complete": {
+      "description": "All 171 Priority 3-5 skills",
+      "skills": ["config-schema-validation", "env-var-management", "daemon-manager", "container-lifecycle-manager", "health-check-automation", "skill-manifest-validator", "clawdhub-package-manager", "sandbox-manager", "llm-provider-manager", "model-routing-manager", "secret-rotation", "api-key-manager", "input-sanitization-filter", "sandbox-security-manager", "audit-log-aggregator", "vulnerability-scanner", "security-audit-runner", "supply-chain-validator", "bitdefender-skills-checker", "database-adapter-manager", "scheduling-engine", "error-retry-manager", "automated-backup", "disaster-recovery-manager", "disk-space-monitor", "diagnostic-command-runner", "rollback-automation", "pii-detection-redactor", "security-boundary-enforcer", "security-hardening-checklist", "disaster-recovery-playbook", "bitdefender-predeploy-checker", "runtime-param-optimization", "state-persistence-manager", "event-bus-monitor", "volume-mount-strategy", "network-topology-design", "reverse-proxy-integration", "hf-spaces-deployer", "rest-api-manager", "websocket-server-manager", "webhook-manager", "rate-limit-enforcer", "acp-protocol-manager", "image-video-processor", "dynamic-skill-loader", "dependency-resolver", "tool-calling-protocol", "local-model-deployer", "token-budget-optimizer", "embedding-model-manager", "provider-configurator", "headless-browser-manager", "jwt-validator", "oauth-oidc-manager", "threat-model-analyzer", "zero-trust-config", "schema-migration-manager", "vector-store-manager", "cloud-storage-binder", "document-processor", "memory-system-manager", "event-trigger-manager", "workflow-state-machine", "parallel-executor", "cron-job-runner", "resource-cleanup-automation", "log-rotation-manager", "hf-dataset-persistence", "log-pattern-analysis", "error-code-classifier", "memory-leak-detector", "performance-bottleneck-id", "root-cause-analyzer", "context-window-manager", "version-diff-analyzer", "breaking-change-detector", "config-migration-runner", "schema-evolution-manager", "dependency-conflict-resolver", "metrics-exporter", "structured-logger", "monitoring-stack-integrator", "synthetic-monitor", "heartbeat-configurator", "logging-configurator", "data-retention-enforcer", "access-log-analyzer", "permission-boundary-validator", "compliance-checker", "anti-pattern-detector", "deployment-pattern-applier", "feature-flag-manager", "skills-discovery", "devops-platform-integrator", "communication-integrator", "cloud-storage-integrator", "channel-manager-20plus", "google-workspace-integrator", "system-prompt-architect", "agents-md-designer", "tools-md-designer", "memory-md-designer", "context-optimizer", "skill-unit-tester", "integration-tester", "e2e-conversation-tester", "regression-tester", "hierarchical-agent-manager", "task-delegator", "shared-memory-sync", "subagent-manager", "offline-first-architect", "cache-layer-manager", "load-balancing-ha", "deployment-scenario-analyzer", "graphql-query-optimizer", "grpc-service-manager", "speech-to-text-manager", "text-to-speech-manager", "realtime-voice-mode", "realtime-transcription", "vad-detector", "audio-format-converter", "skill-registry-crawler", "cli-autocomplete-manager", "js-runtime-injector", "web-ui-customizer", "rich-formatter", "pwa-configurator", "tui-manager", "mobile-responsive-manager", "embedding-cache-manager", "conversation-compactor", "memory-consolidator", "conditional-logic-engine", "hitl-workflow-manager", "data-archival-manager", "garbage-collection-tuner", "stack-trace-analyzer", "deadlock-detector", "blue-green-deployer", "distributed-tracer", "cost-attribution-tracker", "ai-safety-guardian", "config-pattern-library", "performance-benchmarker", "cost-optimizer", "scalability-planner", "feature-capability-mapper", "experiment-manager", "feature-dependency-analyzer", "capability-discovery-protocol", "feature-usage-tracker", "crm-connector", "calendar-scheduler", "fathom-meeting-integrator", "soul-md-designer", "user-md-designer", "few-shot-engineer", "chain-of-thought-designer", "persona-manager", "ab-test-framework", "self-play-validator", "agent-communication-protocol", "consensus-mechanism", "arm-optimizer", "sensor-integrator", "mqtt-implementation", "edge-ai-gateway", "mobile-edge-deployer"]
+    }
+  },
+  "categories": {
+    "1": "Foundation & Core Architecture",
+    "2": "Infrastructure & Deployment Orchestration",
+    "3": "API Gateway & External Communication",
+    "4": "Multimodal Input Processing",
+    "5": "Skill Ecosystem & Extensibility",
+    "6": "Model & Inference Federation",
+    "7": "User Interface & Experience Layer",
+    "8": "Security & Hardening Matrix",
+    "9": "Data Persistence & Knowledge Management",
+    "10": "Automation & Workflow Orchestration",
+    "11": "Maintenance & Upkeep Operations",
+    "12": "Diagnostics & Troubleshooting",
+    "13": "Upgrade & Lifecycle Management",
+    "14": "Observability & Telemetry",
+    "15": "Compliance, Governance & Ethics",
+    "16": "Best Practices & Pattern Repository",
+    "17": "Feature Utilization & Capability Discovery",
+    "18": "Third-Party Ecosystem Integrations",
+    "19": "Prompt Engineering & System Instructions",
+    "20": "Testing & Quality Assurance",
+    "21": "Multi-Agent Orchestration",
+    "22": "Edge & IoT Deployment"
+  },
+  "security_advisory": {
+    "bitdefender_warning": "17% of analyzed OpenClaw skills showed malicious behavior. Always scan with Bitdefender AI Skills Checker before deployment.",
+    "recommended_scanning": "https://securitybrief.co.uk/story/bitdefender-warns-openclaw-ai-skills-rife-with-malware",
+    "cve_tracking": "https://github.com/centminmod/explain-openclaw/security",
+    "security_scorecard": "28,000+ exposed OpenClaw instances detected"
+  },
+  "skills": [
+    {
+      "name": "cache-layer-manager",
+      "path": "./skills/cache-layer-manager",
+      "description": "Manage in-memory and disk-backed caches with TTL and eviction policies",
+      "priority": 3,
+      "category": "1. Foundation & Core Architecture",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "conditional-logic-engine",
+      "path": "./skills/conditional-logic-engine",
+      "description": "Implement decision automation with conditional branching",
+      "priority": 3,
+      "category": "10. Automation & Workflow Orchestration",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "hitl-workflow-manager",
+      "path": "./skills/hitl-workflow-manager",
+      "description": "Design approval workflows requiring human intervention",
+      "priority": 3,
+      "category": "10. Automation & Workflow Orchestration",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "data-archival-manager",
+      "path": "./skills/data-archival-manager",
+      "description": "Manage retention policies with automated archival and purging",
+      "priority": 3,
+      "category": "11. Maintenance & Upkeep Operations",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "garbage-collection-tuner",
+      "path": "./skills/garbage-collection-tuner",
+      "description": "Optimize Node.js garbage collection for memory performance",
+      "priority": 3,
+      "category": "11. Maintenance & Upkeep Operations",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "stack-trace-analyzer",
+      "path": "./skills/stack-trace-analyzer",
+      "description": "Analyze stack traces with symbolication for debugging",
+      "priority": 3,
+      "category": "12. Diagnostics & Troubleshooting",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "deadlock-detector",
+      "path": "./skills/deadlock-detector",
+      "description": "Detect concurrency issues with deadlock and race condition analysis",
+      "priority": 3,
+      "category": "12. Diagnostics & Troubleshooting",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "blue-green-deployer",
+      "path": "./skills/blue-green-deployer",
+      "description": "Implement safe rollout patterns with blue/green and canary deployments",
+      "priority": 3,
+      "category": "13. Upgrade & Lifecycle Management",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "distributed-tracer",
+      "path": "./skills/distributed-tracer",
+      "description": "Track request flows across services with distributed tracing",
+      "priority": 3,
+      "category": "14. Observability & Telemetry",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "cost-attribution-tracker",
+      "path": "./skills/cost-attribution-tracker",
+      "description": "Track token usage and cost analysis for budget management",
+      "priority": 3,
+      "category": "14. Observability & Telemetry",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "ai-safety-guardian",
+      "path": "./skills/ai-safety-guardian",
+      "description": "Monitor and mitigate AI bias with responsible AI guidelines",
+      "priority": 3,
+      "category": "15. Compliance, Governance & Ethics",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "config-pattern-library",
+      "path": "./skills/config-pattern-library",
+      "description": "Access proven configuration patterns for different use cases",
+      "priority": 3,
+      "category": "16. Best Practices & Pattern Repository",
+      "trigger_type": "chat",
+      "complexity": "low"
+    },
+    {
+      "name": "performance-benchmarker",
+      "path": "./skills/performance-benchmarker",
+      "description": "Run latency and throughput benchmarks against defined targets",
+      "priority": 3,
+      "category": "16. Best Practices & Pattern Repository",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "cost-optimizer",
+      "path": "./skills/cost-optimizer",
+      "description": "Recommend spot instances, rightsizing, and cost-saving strategies",
+      "priority": 3,
+      "category": "16. Best Practices & Pattern Repository",
+      "trigger_type": "chat",
+      "complexity": "low"
+    },
+    {
+      "name": "scalability-planner",
+      "path": "./skills/scalability-planner",
+      "description": "Plan capacity and identify when to scale based on thresholds",
+      "priority": 3,
+      "category": "16. Best Practices & Pattern Repository",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "feature-capability-mapper",
+      "path": "./skills/feature-capability-mapper",
+      "description": "Map and inventory all OpenClaw features and capabilities",
+      "priority": 3,
+      "category": "17. Feature Utilization & Capability Discovery",
+      "trigger_type": "chat",
+      "complexity": "low"
+    },
+    {
+      "name": "experiment-manager",
+      "path": "./skills/experiment-manager",
+      "description": "Manage beta features with safe experimentation and graduation criteria",
+      "priority": 3,
+      "category": "17. Feature Utilization & Capability Discovery",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "feature-dependency-analyzer",
+      "path": "./skills/feature-dependency-analyzer",
+      "description": "Analyze feature interactions and detect conflicts",
+      "priority": 3,
+      "category": "17. Feature Utilization & Capability Discovery",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "capability-discovery-protocol",
+      "path": "./skills/capability-discovery-protocol",
+      "description": "Implement self-describing APIs for capability discovery",
+      "priority": 3,
+      "category": "17. Feature Utilization & Capability Discovery",
+      "trigger_type": "event",
+      "complexity": "low"
+    },
+    {
+      "name": "feature-usage-tracker",
+      "path": "./skills/feature-usage-tracker",
+      "description": "Track feature usage with analytics and telemetry",
+      "priority": 3,
+      "category": "17. Feature Utilization & Capability Discovery",
+      "trigger_type": "cron",
+      "complexity": "low"
+    },
+    {
+      "name": "crm-connector",
+      "path": "./skills/crm-connector",
+      "description": "Integrate with Dex CRM and Apollo.io for contact management",
+      "priority": 3,
+      "category": "18. Third-Party Ecosystem Integrations",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "calendar-scheduler",
+      "path": "./skills/calendar-scheduler",
+      "description": "Integrate with Google Calendar, Outlook, and CalDAV for scheduling",
+      "priority": 3,
+      "category": "18. Third-Party Ecosystem Integrations",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "fathom-meeting-integrator",
+      "path": "./skills/fathom-meeting-integrator",
+      "description": "Integrate with Fathom for meeting transcription and follow-up",
+      "priority": 3,
+      "category": "18. Third-Party Ecosystem Integrations",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "soul-md-designer",
+      "path": "./skills/soul-md-designer",
+      "description": "Create SOUL.md for personality definition and core values configuration",
+      "priority": 3,
+      "category": "19. Prompt Engineering & System Instructions",
+      "trigger_type": "chat",
+      "complexity": "low"
+    },
+    {
+      "name": "user-md-designer",
+      "path": "./skills/user-md-designer",
+      "description": "Create USER.md for user context specification and persona",
+      "priority": 3,
+      "category": "19. Prompt Engineering & System Instructions",
+      "trigger_type": "chat",
+      "complexity": "low"
+    },
+    {
+      "name": "few-shot-engineer",
+      "path": "./skills/few-shot-engineer",
+      "description": "Create effective few-shot examples for improved LLM performance",
+      "priority": 3,
+      "category": "19. Prompt Engineering & System Instructions",
+      "trigger_type": "chat",
+      "complexity": "medium"
+    },
+    {
+      "name": "chain-of-thought-designer",
+      "path": "./skills/chain-of-thought-designer",
+      "description": "Design reasoning patterns with chain-of-thought prompting",
+      "priority": 3,
+      "category": "19. Prompt Engineering & System Instructions",
+      "trigger_type": "chat",
+      "complexity": "medium"
+    },
+    {
+      "name": "persona-manager",
+      "path": "./skills/persona-manager",
+      "description": "Manage multiple personas with context switching support",
+      "priority": 3,
+      "category": "19. Prompt Engineering & System Instructions",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "load-balancing-ha",
+      "path": "./skills/load-balancing-ha",
+      "description": "Configure multi-instance deployment with load balancing for high availability",
+      "priority": 3,
+      "category": "2. Infrastructure & Deployment Orchestration",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "deployment-scenario-analyzer",
+      "path": "./skills/deployment-scenario-analyzer",
+      "description": "Analyze and recommend optimal deployment scenario based on requirements and constraints",
+      "priority": 3,
+      "category": "2. Infrastructure & Deployment Orchestration",
+      "trigger_type": "chat",
+      "complexity": "low"
+    },
+    {
+      "name": "ab-test-framework",
+      "path": "./skills/ab-test-framework",
+      "description": "Compare models with A/B testing for selection",
+      "priority": 3,
+      "category": "20. Testing & Quality Assurance",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "self-play-validator",
+      "path": "./skills/self-play-validator",
+      "description": "Automated self-testing with agent self-play",
+      "priority": 3,
+      "category": "20. Testing & Quality Assurance",
+      "trigger_type": "cron",
+      "complexity": "high"
+    },
+    {
+      "name": "agent-communication-protocol",
+      "path": "./skills/agent-communication-protocol",
+      "description": "Manage inter-agent messaging with secure communication protocols",
+      "priority": 3,
+      "category": "21. Multi-Agent Orchestration",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "consensus-mechanism",
+      "path": "./skills/consensus-mechanism",
+      "description": "Implement collaborative decision making with consensus protocols",
+      "priority": 3,
+      "category": "21. Multi-Agent Orchestration",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "arm-optimizer",
+      "path": "./skills/arm-optimizer",
+      "description": "Optimize for Raspberry Pi and ARM64 devices with reduced resource footprint",
+      "priority": 3,
+      "category": "22. Edge & IoT Deployment",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "sensor-integrator",
+      "path": "./skills/sensor-integrator",
+      "description": "Integrate IoT sensors for data collection and processing",
+      "priority": 3,
+      "category": "22. Edge & IoT Deployment",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "mqtt-implementation",
+      "path": "./skills/mqtt-implementation",
+      "description": "Implement lightweight MQTT messaging for IoT communication",
+      "priority": 3,
+      "category": "22. Edge & IoT Deployment",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "edge-ai-gateway",
+      "path": "./skills/edge-ai-gateway",
+      "description": "Configure industrial edge gateways for AI inference at the edge",
+      "priority": 3,
+      "category": "22. Edge & IoT Deployment",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "mobile-edge-deployer",
+      "path": "./skills/mobile-edge-deployer",
+      "description": "Deploy to iOS/Android nodes with local inference capability",
+      "priority": 3,
+      "category": "22. Edge & IoT Deployment",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "graphql-query-optimizer",
+      "path": "./skills/graphql-query-optimizer",
+      "description": "Optimize GraphQL API patterns with query complexity analysis and caching",
+      "priority": 3,
+      "category": "3. API Gateway & External Communication",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "grpc-service-manager",
+      "path": "./skills/grpc-service-manager",
+      "description": "Manage high-performance gRPC services for inter-service communication",
+      "priority": 3,
+      "category": "3. API Gateway & External Communication",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "speech-to-text-manager",
+      "path": "./skills/speech-to-text-manager",
+      "description": "Integrate Whisper, OpenAI STT, and local STT options for audio transcription",
+      "priority": 3,
+      "category": "4. Multimodal Input Processing",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "text-to-speech-manager",
+      "path": "./skills/text-to-speech-manager",
+      "description": "Integrate Edge TTS, ElevenLabs, and OpenAI TTS for voice synthesis",
+      "priority": 3,
+      "category": "4. Multimodal Input Processing",
+      "trigger_type": "manual",
+      "complexity": "low"
+    },
+    {
+      "name": "realtime-voice-mode",
+      "path": "./skills/realtime-voice-mode",
+      "description": "Configure Voice Wake on macOS/iOS/Android with low-latency streaming",
+      "priority": 3,
+      "category": "4. Multimodal Input Processing",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "realtime-transcription",
+      "path": "./skills/realtime-transcription",
+      "description": "Manage live transcription architecture with streaming audio processing",
+      "priority": 3,
+      "category": "4. Multimodal Input Processing",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "vad-detector",
+      "path": "./skills/vad-detector",
+      "description": "Implement speech detection algorithms for efficient audio processing",
+      "priority": 3,
+      "category": "4. Multimodal Input Processing",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "audio-format-converter",
+      "path": "./skills/audio-format-converter",
+      "description": "Convert between MP3, M4A, WAV formats with normalization",
+      "priority": 3,
+      "category": "4. Multimodal Input Processing",
+      "trigger_type": "manual",
+      "complexity": "low"
+    },
+    {
+      "name": "skill-registry-crawler",
+      "path": "./skills/skill-registry-crawler",
+      "description": "Crawl and index ClawHub registry for skill discovery and categorization",
+      "priority": 3,
+      "category": "5. Skill Ecosystem & Extensibility",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "cli-autocomplete-manager",
+      "path": "./skills/cli-autocomplete-manager",
+      "description": "Manage Commander.js CLI with @clack/prompts integration and autocompletion",
+      "priority": 3,
+      "category": "7. User Interface & Experience Layer",
+      "trigger_type": "manual",
+      "complexity": "low"
+    },
+    {
+      "name": "js-runtime-injector",
+      "path": "./skills/js-runtime-injector",
+      "description": "Inject custom UI scripts for runtime customization",
+      "priority": 3,
+      "category": "7. User Interface & Experience Layer",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "web-ui-customizer",
+      "path": "./skills/web-ui-customizer",
+      "description": "Customize Web UI with HTML templates and CSS overrides",
+      "priority": 3,
+      "category": "7. User Interface & Experience Layer",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "rich-formatter",
+      "path": "./skills/rich-formatter",
+      "description": "Format responses with cards, buttons, lists, and markdown rendering",
+      "priority": 3,
+      "category": "7. User Interface & Experience Layer",
+      "trigger_type": "event",
+      "complexity": "low"
+    },
+    {
+      "name": "pwa-configurator",
+      "path": "./skills/pwa-configurator",
+      "description": "Configure Progressive Web App manifest and service worker",
+      "priority": 3,
+      "category": "7. User Interface & Experience Layer",
+      "trigger_type": "manual",
+      "complexity": "low"
+    },
+    {
+      "name": "tui-manager",
+      "path": "./skills/tui-manager",
+      "description": "Manage text-based user interface with streaming improvements",
+      "priority": 3,
+      "category": "7. User Interface & Experience Layer",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "mobile-responsive-manager",
+      "path": "./skills/mobile-responsive-manager",
+      "description": "Configure iOS/Android native UI patterns for mobile responsiveness",
+      "priority": 3,
+      "category": "7. User Interface & Experience Layer",
+      "trigger_type": "manual",
+      "complexity": "low"
+    },
+    {
+      "name": "embedding-cache-manager",
+      "path": "./skills/embedding-cache-manager",
+      "description": "Optimize embedding cache with hybrid search (semantic + keyword)",
+      "priority": 3,
+      "category": "9. Data Persistence & Knowledge Management",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "conversation-compactor",
+      "path": "./skills/conversation-compactor",
+      "description": "Optimize context window by compacting conversation history",
+      "priority": 3,
+      "category": "9. Data Persistence & Knowledge Management",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "memory-consolidator",
+      "path": "./skills/memory-consolidator",
+      "description": "Consolidate memories with summaries and entity extraction",
+      "priority": 3,
+      "category": "9. Data Persistence & Knowledge Management",
+      "trigger_type": "cron",
+      "complexity": "high"
+    },
+    {
+      "name": "runtime-param-optimization",
+      "path": "./skills/runtime-param-optimization",
+      "description": "Optimize CLI flags (--port, --bind, --config, --data-dir) for performance and security",
+      "priority": 4,
+      "category": "1. Foundation & Core Architecture",
+      "trigger_type": "manual",
+      "complexity": "low"
+    },
+    {
+      "name": "state-persistence-manager",
+      "path": "./skills/state-persistence-manager",
+      "description": "Manage sessions directory structure (~/.openclaw/sessions/) with integrity checks",
+      "priority": 4,
+      "category": "1. Foundation & Core Architecture",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "event-bus-monitor",
+      "path": "./skills/event-bus-monitor",
+      "description": "Monitor gateway event propagation and message queue health",
+      "priority": 4,
+      "category": "1. Foundation & Core Architecture",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "event-trigger-manager",
+      "path": "./skills/event-trigger-manager",
+      "description": "Configure triggers for file changes, webhooks, and time-based events",
+      "priority": 4,
+      "category": "10. Automation & Workflow Orchestration",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "workflow-state-machine",
+      "path": "./skills/workflow-state-machine",
+      "description": "Design and execute DAG-based workflows with state management",
+      "priority": 4,
+      "category": "10. Automation & Workflow Orchestration",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "parallel-executor",
+      "path": "./skills/parallel-executor",
+      "description": "Coordinate multi-task execution with concurrency limits",
+      "priority": 4,
+      "category": "10. Automation & Workflow Orchestration",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "cron-job-runner",
+      "path": "./skills/cron-job-runner",
+      "description": "Execute production cron jobs: daily-sync, fathom-after-meetings, batch-scan",
+      "priority": 4,
+      "category": "10. Automation & Workflow Orchestration",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "resource-cleanup-automation",
+      "path": "./skills/resource-cleanup-automation",
+      "description": "Clean up orphaned volumes, temporary files, and unused resources",
+      "priority": 4,
+      "category": "11. Maintenance & Upkeep Operations",
+      "trigger_type": "cron",
+      "complexity": "low"
+    },
+    {
+      "name": "log-rotation-manager",
+      "path": "./skills/log-rotation-manager",
+      "description": "Manage log rotation for gateway.log and gateway.err.log",
+      "priority": 4,
+      "category": "11. Maintenance & Upkeep Operations",
+      "trigger_type": "cron",
+      "complexity": "low"
+    },
+    {
+      "name": "hf-dataset-persistence",
+      "path": "./skills/hf-dataset-persistence",
+      "description": "Manage ephemeral storage backup strategy for HuggingFace Spaces",
+      "priority": 4,
+      "category": "11. Maintenance & Upkeep Operations",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "log-pattern-analysis",
+      "path": "./skills/log-pattern-analysis",
+      "description": "Analyze logs for patterns and detect anomalies automatically",
+      "priority": 4,
+      "category": "12. Diagnostics & Troubleshooting",
+      "trigger_type": "cron",
+      "complexity": "high"
+    },
+    {
+      "name": "error-code-classifier",
+      "path": "./skills/error-code-classifier",
+      "description": "Classify errors and map to resolutions from common error database",
+      "priority": 4,
+      "category": "12. Diagnostics & Troubleshooting",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "memory-leak-detector",
+      "path": "./skills/memory-leak-detector",
+      "description": "Detect memory leaks with profiling and heap analysis",
+      "priority": 4,
+      "category": "12. Diagnostics & Troubleshooting",
+      "trigger_type": "cron",
+      "complexity": "high"
+    },
+    {
+      "name": "performance-bottleneck-id",
+      "path": "./skills/performance-bottleneck-id",
+      "description": "Identify CPU, I/O, and network performance bottlenecks",
+      "priority": 4,
+      "category": "12. Diagnostics & Troubleshooting",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "root-cause-analyzer",
+      "path": "./skills/root-cause-analyzer",
+      "description": "Perform systematic debugging with automated RCA",
+      "priority": 4,
+      "category": "12. Diagnostics & Troubleshooting",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "context-window-manager",
+      "path": "./skills/context-window-manager",
+      "description": "Prevent token limit exceeded errors with proactive context management",
+      "priority": 4,
+      "category": "12. Diagnostics & Troubleshooting",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "version-diff-analyzer",
+      "path": "./skills/version-diff-analyzer",
+      "description": "Analyze version differences with SemVer compliance and breaking change detection",
+      "priority": 4,
+      "category": "13. Upgrade & Lifecycle Management",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "breaking-change-detector",
+      "path": "./skills/breaking-change-detector",
+      "description": "Detect breaking changes and provide mitigation strategies",
+      "priority": 4,
+      "category": "13. Upgrade & Lifecycle Management",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "config-migration-runner",
+      "path": "./skills/config-migration-runner",
+      "description": "Automate configuration updates during version upgrades",
+      "priority": 4,
+      "category": "13. Upgrade & Lifecycle Management",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "schema-evolution-manager",
+      "path": "./skills/schema-evolution-manager",
+      "description": "Manage data migration during schema evolution",
+      "priority": 4,
+      "category": "13. Upgrade & Lifecycle Management",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "dependency-conflict-resolver",
+      "path": "./skills/dependency-conflict-resolver",
+      "description": "Resolve version compatibility conflicts during upgrades",
+      "priority": 4,
+      "category": "13. Upgrade & Lifecycle Management",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "metrics-exporter",
+      "path": "./skills/metrics-exporter",
+      "description": "Collect and expose performance metrics for monitoring",
+      "priority": 4,
+      "category": "14. Observability & Telemetry",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "structured-logger",
+      "path": "./skills/structured-logger",
+      "description": "Implement JSON logging with proper log levels and context",
+      "priority": 4,
+      "category": "14. Observability & Telemetry",
+      "trigger_type": "event",
+      "complexity": "low"
+    },
+    {
+      "name": "monitoring-stack-integrator",
+      "path": "./skills/monitoring-stack-integrator",
+      "description": "Integrate with Prometheus, Grafana, Datadog, and Sentry",
+      "priority": 4,
+      "category": "14. Observability & Telemetry",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "synthetic-monitor",
+      "path": "./skills/synthetic-monitor",
+      "description": "Automate health checks with synthetic transaction testing",
+      "priority": 4,
+      "category": "14. Observability & Telemetry",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "heartbeat-configurator",
+      "path": "./skills/heartbeat-configurator",
+      "description": "Configure uptime monitoring with heartbeat endpoints (1 hour interval)",
+      "priority": 4,
+      "category": "14. Observability & Telemetry",
+      "trigger_type": "manual",
+      "complexity": "low"
+    },
+    {
+      "name": "logging-configurator",
+      "path": "./skills/logging-configurator",
+      "description": "Configure gateway.log and gateway.err.log locations and rotation",
+      "priority": 4,
+      "category": "14. Observability & Telemetry",
+      "trigger_type": "manual",
+      "complexity": "low"
+    },
+    {
+      "name": "data-retention-enforcer",
+      "path": "./skills/data-retention-enforcer",
+      "description": "Automate data lifecycle management with retention policy enforcement",
+      "priority": 4,
+      "category": "15. Compliance, Governance & Ethics",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "access-log-analyzer",
+      "path": "./skills/access-log-analyzer",
+      "description": "Analyze access logs for security monitoring and anomaly detection",
+      "priority": 4,
+      "category": "15. Compliance, Governance & Ethics",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "permission-boundary-validator",
+      "path": "./skills/permission-boundary-validator",
+      "description": "Implement and validate RBAC/ABAC permission boundaries",
+      "priority": 4,
+      "category": "15. Compliance, Governance & Ethics",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "compliance-checker",
+      "path": "./skills/compliance-checker",
+      "description": "Check GDPR, CCPA compliance with automated validation",
+      "priority": 4,
+      "category": "15. Compliance, Governance & Ethics",
+      "trigger_type": "cron",
+      "complexity": "high"
+    },
+    {
+      "name": "anti-pattern-detector",
+      "path": "./skills/anti-pattern-detector",
+      "description": "Detect and warn about common anti-patterns in configuration and code",
+      "priority": 4,
+      "category": "16. Best Practices & Pattern Repository",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "deployment-pattern-applier",
+      "path": "./skills/deployment-pattern-applier",
+      "description": "Apply canonical deployment patterns: Mac mini local-first, Isolated VPS, Cloudflare Moltworker, Docker Model Runner",
+      "priority": 4,
+      "category": "16. Best Practices & Pattern Repository",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "feature-flag-manager",
+      "path": "./skills/feature-flag-manager",
+      "description": "Manage runtime feature control with feature flags and toggles",
+      "priority": 4,
+      "category": "17. Feature Utilization & Capability Discovery",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "skills-discovery",
+      "path": "./skills/skills-discovery",
+      "description": "Discover available skills via SKILL.md and clawdhub CLI",
+      "priority": 4,
+      "category": "17. Feature Utilization & Capability Discovery",
+      "trigger_type": "chat",
+      "complexity": "low"
+    },
+    {
+      "name": "devops-platform-integrator",
+      "path": "./skills/devops-platform-integrator",
+      "description": "Integrate with GitHub, Linear, and Jira for development workflow",
+      "priority": 4,
+      "category": "18. Third-Party Ecosystem Integrations",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "communication-integrator",
+      "path": "./skills/communication-integrator",
+      "description": "Integrate with 20+ channels: Slack, Discord, Telegram, Mattermost, Matrix, Zalo, Line, Feishu, Signal, iMessage",
+      "priority": 4,
+      "category": "18. Third-Party Ecosystem Integrations",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "cloud-storage-integrator",
+      "path": "./skills/cloud-storage-integrator",
+      "description": "Integrate with Box, Google Drive, Dropbox for file operations",
+      "priority": 4,
+      "category": "18. Third-Party Ecosystem Integrations",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "channel-manager-20plus",
+      "path": "./skills/channel-manager-20plus",
+      "description": "Manage complete channel list: WhatsApp, Signal, iMessage, Telegram, Discord, Slack, Matrix, Zalo, Line, Feishu, Google Chat, MS Teams, Nostr, Twitch, Mattermost",
+      "priority": 4,
+      "category": "18. Third-Party Ecosystem Integrations",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "google-workspace-integrator",
+      "path": "./skills/google-workspace-integrator",
+      "description": "Integrate with Google Workspace using gog CLI for email and calendar",
+      "priority": 4,
+      "category": "18. Third-Party Ecosystem Integrations",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "system-prompt-architect",
+      "path": "./skills/system-prompt-architect",
+      "description": "Design and assemble effective system prompts for agent behavior",
+      "priority": 4,
+      "category": "19. Prompt Engineering & System Instructions",
+      "trigger_type": "chat",
+      "complexity": "medium"
+    },
+    {
+      "name": "agents-md-designer",
+      "path": "./skills/agents-md-designer",
+      "description": "Create AGENTS.md for agent behavior definition and operating instructions",
+      "priority": 4,
+      "category": "19. Prompt Engineering & System Instructions",
+      "trigger_type": "chat",
+      "complexity": "medium"
+    },
+    {
+      "name": "tools-md-designer",
+      "path": "./skills/tools-md-designer",
+      "description": "Create TOOLS.md documenting available tools for agent use",
+      "priority": 4,
+      "category": "19. Prompt Engineering & System Instructions",
+      "trigger_type": "chat",
+      "complexity": "low"
+    },
+    {
+      "name": "memory-md-designer",
+      "path": "./skills/memory-md-designer",
+      "description": "Create MEMORY.md for memory configuration and recall preferences",
+      "priority": 4,
+      "category": "19. Prompt Engineering & System Instructions",
+      "trigger_type": "chat",
+      "complexity": "low"
+    },
+    {
+      "name": "context-optimizer",
+      "path": "./skills/context-optimizer",
+      "description": "Optimize token efficiency for context window management",
+      "priority": 4,
+      "category": "19. Prompt Engineering & System Instructions",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "volume-mount-strategy",
+      "path": "./skills/volume-mount-strategy",
+      "description": "Design and manage data volumes for HuggingFace Spaces persistence and local deployments",
+      "priority": 4,
+      "category": "2. Infrastructure & Deployment Orchestration",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "network-topology-design",
+      "path": "./skills/network-topology-design",
+      "description": "Configure bridge and host network modes with proper port mapping for OpenClaw",
+      "priority": 4,
+      "category": "2. Infrastructure & Deployment Orchestration",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "reverse-proxy-integration",
+      "path": "./skills/reverse-proxy-integration",
+      "description": "Configure Nginx, Caddy, or Traefik as reverse proxy for OpenClaw gateway",
+      "priority": 4,
+      "category": "2. Infrastructure & Deployment Orchestration",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "hf-spaces-deployer",
+      "path": "./skills/hf-spaces-deployer",
+      "description": "Deploy OpenClaw to HuggingFace Spaces with persistence and keepalive configuration",
+      "priority": 4,
+      "category": "2. Infrastructure & Deployment Orchestration",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "skill-unit-tester",
+      "path": "./skills/skill-unit-tester",
+      "description": "Create and run deterministic validation scripts for skills",
+      "priority": 4,
+      "category": "20. Testing & Quality Assurance",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "integration-tester",
+      "path": "./skills/integration-tester",
+      "description": "Run cross-component integration tests",
+      "priority": 4,
+      "category": "20. Testing & Quality Assurance",
+      "trigger_type": "cron",
+      "complexity": "high"
+    },
+    {
+      "name": "e2e-conversation-tester",
+      "path": "./skills/e2e-conversation-tester",
+      "description": "Validate end-to-end conversation flows",
+      "priority": 4,
+      "category": "20. Testing & Quality Assurance",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "regression-tester",
+      "path": "./skills/regression-tester",
+      "description": "Prevent regression with automated test suites",
+      "priority": 4,
+      "category": "20. Testing & Quality Assurance",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "hierarchical-agent-manager",
+      "path": "./skills/hierarchical-agent-manager",
+      "description": "Manage orchestrator pattern and worker agents with hierarchy",
+      "priority": 4,
+      "category": "21. Multi-Agent Orchestration",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "task-delegator",
+      "path": "./skills/task-delegator",
+      "description": "Distribute work across agents with intelligent task delegation",
+      "priority": 4,
+      "category": "21. Multi-Agent Orchestration",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "shared-memory-sync",
+      "path": "./skills/shared-memory-sync",
+      "description": "Manage cross-agent memory and state synchronization",
+      "priority": 4,
+      "category": "21. Multi-Agent Orchestration",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "subagent-manager",
+      "path": "./skills/subagent-manager",
+      "description": "Manage subagents with max concurrent: 8 production setting and fallback chains",
+      "priority": 4,
+      "category": "21. Multi-Agent Orchestration",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "offline-first-architect",
+      "path": "./skills/offline-first-architect",
+      "description": "Design disconnected operation with local inference and sync-on-connect",
+      "priority": 4,
+      "category": "22. Edge & IoT Deployment",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "rest-api-manager",
+      "path": "./skills/rest-api-manager",
+      "description": "Manage internal API patterns and external service integration with rate limiting",
+      "priority": 4,
+      "category": "3. API Gateway & External Communication",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "websocket-server-manager",
+      "path": "./skills/websocket-server-manager",
+      "description": "Manage gateway control plane WebSocket server on port 18789 with real-time updates",
+      "priority": 4,
+      "category": "3. API Gateway & External Communication",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "webhook-manager",
+      "path": "./skills/webhook-manager",
+      "description": "Manage incoming webhooks with signature verification and secure processing",
+      "priority": 4,
+      "category": "3. API Gateway & External Communication",
+      "trigger_type": "webhook",
+      "complexity": "medium"
+    },
+    {
+      "name": "rate-limit-enforcer",
+      "path": "./skills/rate-limit-enforcer",
+      "description": "Enforce API rate limits with intelligent backoff strategies",
+      "priority": 4,
+      "category": "3. API Gateway & External Communication",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "acp-protocol-manager",
+      "path": "./skills/acp-protocol-manager",
+      "description": "Manage Agent Communication Protocol with client identification and message routing",
+      "priority": 4,
+      "category": "3. API Gateway & External Communication",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "image-video-processor",
+      "path": "./skills/image-video-processor",
+      "description": "Process video frames, images with sharp library, and OCR pipelines",
+      "priority": 4,
+      "category": "4. Multimodal Input Processing",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "dynamic-skill-loader",
+      "path": "./skills/dynamic-skill-loader",
+      "description": "Load and unload skills at runtime with version pinning support",
+      "priority": 4,
+      "category": "5. Skill Ecosystem & Extensibility",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "dependency-resolver",
+      "path": "./skills/dependency-resolver",
+      "description": "Resolve skill dependencies using .clawdhub/lock.json and handle version conflicts",
+      "priority": 4,
+      "category": "5. Skill Ecosystem & Extensibility",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "tool-calling-protocol",
+      "path": "./skills/tool-calling-protocol",
+      "description": "Manage function calling integration with LLMs for skill execution",
+      "priority": 4,
+      "category": "5. Skill Ecosystem & Extensibility",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "local-model-deployer",
+      "path": "./skills/local-model-deployer",
+      "description": "Deploy and manage Ollama, vLLM for local inference with resource optimization",
+      "priority": 4,
+      "category": "6. Model & Inference Federation",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "token-budget-optimizer",
+      "path": "./skills/token-budget-optimizer",
+      "description": "Optimize token usage and manage context window for cost control",
+      "priority": 4,
+      "category": "6. Model & Inference Federation",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "embedding-model-manager",
+      "path": "./skills/embedding-model-manager",
+      "description": "Manage vectorization with Google gemini-embedding-001 (768-dim) standard",
+      "priority": 4,
+      "category": "6. Model & Inference Federation",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "provider-configurator",
+      "path": "./skills/provider-configurator",
+      "description": "Configure all LLM providers: Anthropic, OpenAI, Gemini, DeepSeek, Groq, Together, Mistral, xAI, Fireworks, Ollama, vLLM, Hugging Face",
+      "priority": 4,
+      "category": "6. Model & Inference Federation",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "headless-browser-manager",
+      "path": "./skills/headless-browser-manager",
+      "description": "Manage Puppeteer/Playwright integration for web automation",
+      "priority": 4,
+      "category": "7. User Interface & Experience Layer",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "jwt-validator",
+      "path": "./skills/jwt-validator",
+      "description": "Validate JWT tokens and process claims for authentication",
+      "priority": 4,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "oauth-oidc-manager",
+      "path": "./skills/oauth-oidc-manager",
+      "description": "Implement social login integration with OAuth2 and OpenID Connect",
+      "priority": 4,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "threat-model-analyzer",
+      "path": "./skills/threat-model-analyzer",
+      "description": "Analyze threat model with gateway host as trust boundary",
+      "priority": 4,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "zero-trust-config",
+      "path": "./skills/zero-trust-config",
+      "description": "Configure mTLS and service mesh for zero-trust security",
+      "priority": 4,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "schema-migration-manager",
+      "path": "./skills/schema-migration-manager",
+      "description": "Manage database versioning and automated schema migrations",
+      "priority": 4,
+      "category": "9. Data Persistence & Knowledge Management",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "vector-store-manager",
+      "path": "./skills/vector-store-manager",
+      "description": "Manage SQLite-vec and LanceDB for embedding storage and retrieval",
+      "priority": 4,
+      "category": "9. Data Persistence & Knowledge Management",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "cloud-storage-binder",
+      "path": "./skills/cloud-storage-binder",
+      "description": "Integrate S3, GCS, Azure Blob for cloud storage operations",
+      "priority": 4,
+      "category": "9. Data Persistence & Knowledge Management",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "document-processor",
+      "path": "./skills/document-processor",
+      "description": "Process PDF, Office, Markdown documents for ingestion",
+      "priority": 4,
+      "category": "9. Data Persistence & Knowledge Management",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "memory-system-manager",
+      "path": "./skills/memory-system-manager",
+      "description": "Manage capture → recall → decay → learn memory cycles",
+      "priority": 4,
+      "category": "9. Data Persistence & Knowledge Management",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "config-schema-validation",
+      "path": "./skills/config-schema-validation",
+      "description": "Validate openclaw.json structure and enforce JSON5 parsing rules with hot-reload support",
+      "priority": 5,
+      "category": "1. Foundation & Core Architecture",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "env-var-management",
+      "path": "./skills/env-var-management",
+      "description": "Manage OPENCLAW_* environment variables with dotenv integration and precedence resolution",
+      "priority": 5,
+      "category": "1. Foundation & Core Architecture",
+      "trigger_type": "manual",
+      "complexity": "low"
+    },
+    {
+      "name": "daemon-manager",
+      "path": "./skills/daemon-manager",
+      "description": "Manage OpenClaw daemon via launchd (macOS) or systemd (Linux) with auto-start configuration",
+      "priority": 5,
+      "category": "1. Foundation & Core Architecture",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "scheduling-engine",
+      "path": "./skills/scheduling-engine",
+      "description": "Manage cron-like scheduling with interval-based task execution",
+      "priority": 5,
+      "category": "10. Automation & Workflow Orchestration",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "error-retry-manager",
+      "path": "./skills/error-retry-manager",
+      "description": "Implement resilient automation with exponential backoff and dead letter queues",
+      "priority": 5,
+      "category": "10. Automation & Workflow Orchestration",
+      "trigger_type": "event",
+      "complexity": "medium"
+    },
+    {
+      "name": "automated-backup",
+      "path": "./skills/automated-backup",
+      "description": "Schedule and verify backups with sync.py backup system",
+      "priority": 5,
+      "category": "11. Maintenance & Upkeep Operations",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "disaster-recovery-manager",
+      "path": "./skills/disaster-recovery-manager",
+      "description": "Manage recovery from failure with automated failover procedures",
+      "priority": 5,
+      "category": "11. Maintenance & Upkeep Operations",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "disk-space-monitor",
+      "path": "./skills/disk-space-monitor",
+      "description": "Monitor capacity with alerting for disk space and inode exhaustion",
+      "priority": 5,
+      "category": "11. Maintenance & Upkeep Operations",
+      "trigger_type": "cron",
+      "complexity": "low"
+    },
+    {
+      "name": "diagnostic-command-runner",
+      "path": "./skills/diagnostic-command-runner",
+      "description": "Run openclaw doctor --fix, status, health, and logs --local-time commands",
+      "priority": 5,
+      "category": "12. Diagnostics & Troubleshooting",
+      "trigger_type": "manual",
+      "complexity": "low"
+    },
+    {
+      "name": "rollback-automation",
+      "path": "./skills/rollback-automation",
+      "description": "Automate quick recovery with rollback procedures and testing",
+      "priority": 5,
+      "category": "13. Upgrade & Lifecycle Management",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "pii-detection-redactor",
+      "path": "./skills/pii-detection-redactor",
+      "description": "Detect and redact personally identifiable information for privacy protection",
+      "priority": 5,
+      "category": "15. Compliance, Governance & Ethics",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "security-boundary-enforcer",
+      "path": "./skills/security-boundary-enforcer",
+      "description": "Enforce gateway host as trust perimeter with boundary controls",
+      "priority": 5,
+      "category": "15. Compliance, Governance & Ethics",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "security-hardening-checklist",
+      "path": "./skills/security-hardening-checklist",
+      "description": "Apply CIS benchmark-aligned security hardening checklist",
+      "priority": 5,
+      "category": "16. Best Practices & Pattern Repository",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "disaster-recovery-playbook",
+      "path": "./skills/disaster-recovery-playbook",
+      "description": "Execute documented recovery procedures for various failure scenarios",
+      "priority": 5,
+      "category": "16. Best Practices & Pattern Repository",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "container-lifecycle-manager",
+      "path": "./skills/container-lifecycle-manager",
+      "description": "Manage Docker/Podman containers for OpenClaw deployment with image building and orchestration",
+      "priority": 5,
+      "category": "2. Infrastructure & Deployment Orchestration",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "health-check-automation",
+      "path": "./skills/health-check-automation",
+      "description": "Implement heartbeat monitoring with auto-restart on failure detection",
+      "priority": 5,
+      "category": "2. Infrastructure & Deployment Orchestration",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "bitdefender-predeploy-checker",
+      "path": "./skills/bitdefender-predeploy-checker",
+      "description": "Mandatory pre-deployment security validation with Bitdefender",
+      "priority": 5,
+      "category": "20. Testing & Quality Assurance",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "skill-manifest-validator",
+      "path": "./skills/skill-manifest-validator",
+      "description": "Validate SKILL.md format, required fields, and skill manifest compliance",
+      "priority": 5,
+      "category": "5. Skill Ecosystem & Extensibility",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "clawdhub-package-manager",
+      "path": "./skills/clawdhub-package-manager",
+      "description": "Manage skill packages via clawdhub CLI with Homebrew integration",
+      "priority": 5,
+      "category": "5. Skill Ecosystem & Extensibility",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "sandbox-manager",
+      "path": "./skills/sandbox-manager",
+      "description": "Manage security boundaries for skill execution with container isolation",
+      "priority": 5,
+      "category": "5. Skill Ecosystem & Extensibility",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "llm-provider-manager",
+      "path": "./skills/llm-provider-manager",
+      "description": "Manage 15+ integrated LLM providers with unified interface and failover",
+      "priority": 5,
+      "category": "6. Model & Inference Federation",
+      "trigger_type": "manual",
+      "complexity": "high"
+    },
+    {
+      "name": "model-routing-manager",
+      "path": "./skills/model-routing-manager",
+      "description": "Implement resilient inference chains with automatic fallback and load balancing",
+      "priority": 5,
+      "category": "6. Model & Inference Federation",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "secret-rotation",
+      "path": "./skills/secret-rotation",
+      "description": "Automate credential rotation for API keys, tokens, and passwords",
+      "priority": 5,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "cron",
+      "complexity": "high"
+    },
+    {
+      "name": "api-key-manager",
+      "path": "./skills/api-key-manager",
+      "description": "Manage API keys in ~/.openclaw/credentials/ with key isolation and scoping",
+      "priority": 5,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "input-sanitization-filter",
+      "path": "./skills/input-sanitization-filter",
+      "description": "Defend against prompt injection with 27 attack pattern detection and filtering",
+      "priority": 5,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "sandbox-security-manager",
+      "path": "./skills/sandbox-security-manager",
+      "description": "Enforce Docker isolation and process boundaries to prevent container escapes",
+      "priority": 5,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "event",
+      "complexity": "high"
+    },
+    {
+      "name": "audit-log-aggregator",
+      "path": "./skills/audit-log-aggregator",
+      "description": "Aggregate security event logs with real-time alerting for anomalies",
+      "priority": 5,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "cron",
+      "complexity": "high"
+    },
+    {
+      "name": "vulnerability-scanner",
+      "path": "./skills/vulnerability-scanner",
+      "description": "Integrate Trivy, Snyk, and Bitdefender AI Skills Checker for security scanning",
+      "priority": 5,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "cron",
+      "complexity": "medium"
+    },
+    {
+      "name": "security-audit-runner",
+      "path": "./skills/security-audit-runner",
+      "description": "Run openclaw security audit --fix with 50+ checks across 12 categories",
+      "priority": 5,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "cron",
+      "complexity": "high"
+    },
+    {
+      "name": "supply-chain-validator",
+      "path": "./skills/supply-chain-validator",
+      "description": "Validate skill vetting and dependency verification for supply chain security",
+      "priority": 5,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "cron",
+      "complexity": "high"
+    },
+    {
+      "name": "bitdefender-skills-checker",
+      "path": "./skills/bitdefender-skills-checker",
+      "description": "Pre-deployment security validation scanning for backdoors, data exfiltration, and prompt injection",
+      "priority": 5,
+      "category": "8. Security & Hardening Matrix",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    },
+    {
+      "name": "database-adapter-manager",
+      "path": "./skills/database-adapter-manager",
+      "description": "Manage SQLite with WAL mode, foreign keys, and connection pooling",
+      "priority": 5,
+      "category": "9. Data Persistence & Knowledge Management",
+      "trigger_type": "manual",
+      "complexity": "medium"
+    }
+  ]
+}

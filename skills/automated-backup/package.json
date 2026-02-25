@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/automated-backup",
+  "version": "1.0.0",
+  "description": "Schedule and verify backups with sync.py backup system",
+  "main": "index.js",
+  "dependencies": {
+    "tar": "^1.0.0"
+  }}
+}
