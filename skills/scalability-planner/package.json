@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/scalability-planner",
+  "version": "1.0.0",
+  "description": "Plan capacity and identify when to scale based on thresholds",
+  "main": "index.js",
+  "dependencies": {
+    "capacity-planner": "^1.0.0"
+  }}
+}

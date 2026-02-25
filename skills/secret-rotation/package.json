@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/secret-rotation",
+  "version": "1.0.0",
+  "description": "Automate credential rotation for API keys, tokens, and passwords",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "^1.0.0"
+  }}
+}

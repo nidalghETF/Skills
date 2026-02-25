@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/schema-evolution-manager",
+  "version": "1.0.0",
+  "description": "Manage data migration during schema evolution",
+  "main": "index.js",
+  "dependencies": {
+    "umzug": "^1.0.0"
+  }}
+}

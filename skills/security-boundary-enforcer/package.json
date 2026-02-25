@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/security-boundary-enforcer",
+  "version": "1.0.0",
+  "description": "Enforce gateway host as trust perimeter with boundary controls",
+  "main": "index.js",
+  "dependencies": {
+    "firewall": "^1.0.0"
+  }}
+}

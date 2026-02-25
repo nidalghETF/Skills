@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/sensor-integrator",
+  "version": "1.0.0",
+  "description": "Integrate IoT sensors for data collection and processing",
+  "main": "index.js",
+  "dependencies": {
+    "sensor-libraries": "^1.0.0"
+  }}
+}

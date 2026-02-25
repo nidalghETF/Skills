@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/sandbox-manager",
+  "version": "1.0.0",
+  "description": "Manage security boundaries for skill execution with container isolation",
+  "main": "index.js",
+  "dependencies": {
+    "docker|nsjail": "^1.0.0"
+  }}
+}

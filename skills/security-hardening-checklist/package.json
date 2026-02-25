@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/security-hardening-checklist",
+  "version": "1.0.0",
+  "description": "Apply CIS benchmark-aligned security hardening checklist",
+  "main": "index.js",
+  "dependencies": {
+    "cis-benchmarks": "^1.0.0"
+  }}
+}

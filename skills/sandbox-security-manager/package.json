@@ -1,0 +1,10 @@
+{
+  "name": "@openclaw-skills/sandbox-security-manager",
+  "version": "1.0.0",
+  "description": "Enforce Docker isolation and process boundaries to prevent container escapes",
+  "main": "index.js",
+  "dependencies": {
+    "docker": "^1.0.0",
+    "seccomp": "^1.0.0"
+  }}
+}

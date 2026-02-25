@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/scheduling-engine",
+  "version": "1.0.0",
+  "description": "Manage cron-like scheduling with interval-based task execution",
+  "main": "index.js",
+  "dependencies": {
+    "node-cron": "^1.0.0"
+  }}
+}

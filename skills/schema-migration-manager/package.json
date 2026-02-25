@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/schema-migration-manager",
+  "version": "1.0.0",
+  "description": "Manage database versioning and automated schema migrations",
+  "main": "index.js",
+  "dependencies": {
+    "umzug|db-migrate": "^1.0.0"
+  }}
+}
