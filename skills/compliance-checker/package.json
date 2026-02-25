@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/compliance-checker",
+  "version": "1.0.0",
+  "description": "Check GDPR, CCPA compliance with automated validation",
+  "main": "index.js",
+  "dependencies": {
+    "compliance-framework": "^1.0.0"
+  }}
+}

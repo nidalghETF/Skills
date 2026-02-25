@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/config-schema-validation",
+  "version": "1.0.0",
+  "description": "Validate openclaw.json structure and enforce JSON5 parsing rules with hot-reload support",
+  "main": "index.js",
+  "dependencies": {
+    "json5": "^1.0.0"
+  }}
+}

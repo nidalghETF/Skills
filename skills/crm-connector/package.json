@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/crm-connector",
+  "version": "1.0.0",
+  "description": "Integrate with Dex CRM and Apollo.io for contact management",
+  "main": "index.js",
+  "dependencies": {
+    "crm-api": "^1.0.0"
+  }}
+}

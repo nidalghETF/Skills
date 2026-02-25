@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/conditional-logic-engine",
+  "version": "1.0.0",
+  "description": "Implement decision automation with conditional branching",
+  "main": "index.js",
+  "dependencies": {
+    "json-logic": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/context-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize token efficiency for context window management",
+  "main": "index.js",
+  "dependencies": {
+    "tiktoken": "^1.0.0"
+  }}
+}

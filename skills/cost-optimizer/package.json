@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/cost-optimizer",
+  "version": "1.0.0",
+  "description": "Recommend spot instances, rightsizing, and cost-saving strategies",
+  "main": "index.js",
+  "dependencies": {
+    "cost-analyzer": "^1.0.0"
+  }}
+}

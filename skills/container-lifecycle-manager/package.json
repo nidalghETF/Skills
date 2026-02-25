@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/container-lifecycle-manager",
+  "version": "1.0.0",
+  "description": "Manage Docker/Podman containers for OpenClaw deployment with image building and orchestration",
+  "main": "index.js",
+  "dependencies": {
+    "docker-cli": "^1.0.0"
+  }}
+}

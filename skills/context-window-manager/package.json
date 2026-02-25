@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/context-window-manager",
+  "version": "1.0.0",
+  "description": "Prevent token limit exceeded errors with proactive context management",
+  "main": "index.js",
+  "dependencies": {
+    "tiktoken": "^1.0.0"
+  }}
+}

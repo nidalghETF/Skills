@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/consensus-mechanism",
+  "version": "1.0.0",
+  "description": "Implement collaborative decision making with consensus protocols",
+  "main": "index.js",
+  "dependencies": {
+    "consensus-algorithm": "^1.0.0"
+  }}
+}

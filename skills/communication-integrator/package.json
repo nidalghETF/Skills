@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/communication-integrator",
+  "version": "1.0.0",
+  "description": "Integrate with 20+ channels: Slack, Discord, Telegram, Mattermost, Matrix, Zalo, Line, Feishu, Signal, iMessage",
+  "main": "index.js",
+  "dependencies": {
+    "platform-sdks": "^1.0.0"
+  }}
+}
