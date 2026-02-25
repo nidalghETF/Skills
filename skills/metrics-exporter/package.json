@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/metrics-exporter",
+  "version": "1.0.0",
+  "description": "Collect and expose performance metrics for monitoring",
+  "main": "index.js",
+  "dependencies": {
+    "prom-client": "^1.0.0"
+  }}
+}

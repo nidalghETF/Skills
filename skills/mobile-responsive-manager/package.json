@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/mobile-responsive-manager",
+  "version": "1.0.0",
+  "description": "Configure iOS/Android native UI patterns for mobile responsiveness",
+  "main": "index.js",
+  "dependencies": {
+    "responsive-css": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/mobile-edge-deployer",
+  "version": "1.0.0",
+  "description": "Deploy to iOS/Android nodes with local inference capability",
+  "main": "index.js",
+  "dependencies": {
+    "tensorflow-lite|coreml": "^1.0.0"
+  }}
+}

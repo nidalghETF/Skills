@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/monitoring-stack-integrator",
+  "version": "1.0.0",
+  "description": "Integrate with Prometheus, Grafana, Datadog, and Sentry",
+  "main": "index.js",
+  "dependencies": {
+    "monitoring-api": "^1.0.0"
+  }}
+}

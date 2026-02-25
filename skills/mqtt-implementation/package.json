@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/mqtt-implementation",
+  "version": "1.0.0",
+  "description": "Implement lightweight MQTT messaging for IoT communication",
+  "main": "index.js",
+  "dependencies": {
+    "mqtt": "^1.0.0"
+  }}
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@openclaw-skills/memory-leak-detector",
+  "version": "1.0.0",
+  "description": "Detect memory leaks with profiling and heap analysis",
+  "main": "index.js",
+  "dependencies": {
+    "heapdump": "^1.0.0",
+    "clinic": "^1.0.0"
+  }}
+}

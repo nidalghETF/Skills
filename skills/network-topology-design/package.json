@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/network-topology-design",
+  "version": "1.0.0",
+  "description": "Configure bridge and host network modes with proper port mapping for OpenClaw",
+  "main": "index.js",
+  "dependencies": {
+    "docker-cli": "^1.0.0"
+  }}
+}
