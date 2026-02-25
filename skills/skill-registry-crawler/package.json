@@ -1,0 +1,10 @@
+{
+  "name": "@openclaw-skills/skill-registry-crawler",
+  "version": "1.0.0",
+  "description": "Crawl and index ClawHub registry for skill discovery and categorization",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.0.0",
+    "cheerio": "^1.0.0"
+  }}
+}

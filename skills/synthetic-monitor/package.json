@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/synthetic-monitor",
+  "version": "1.0.0",
+  "description": "Automate health checks with synthetic transaction testing",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.0.0"
+  }}
+}

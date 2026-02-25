@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/speech-to-text-manager",
+  "version": "1.0.0",
+  "description": "Integrate Whisper, OpenAI STT, and local STT options for audio transcription",
+  "main": "index.js",
+  "dependencies": {
+    "openai-whisper": "^1.0.0"
+  }}
+}

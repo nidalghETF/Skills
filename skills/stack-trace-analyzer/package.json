@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/stack-trace-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze stack traces with symbolication for debugging",
+  "main": "index.js",
+  "dependencies": {
+    "source-map": "^1.0.0"
+  }}
+}

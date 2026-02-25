@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/skills-discovery",
+  "version": "1.0.0",
+  "description": "Discover available skills via SKILL.md and clawdhub CLI",
+  "main": "index.js",
+  "dependencies": {
+    "clawdhub-cli": "^1.0.0"
+  }}
+}

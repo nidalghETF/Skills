@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/structured-logger",
+  "version": "1.0.0",
+  "description": "Implement JSON logging with proper log levels and context",
+  "main": "index.js",
+  "dependencies": {
+    "pino|winston": "^1.0.0"
+  }}
+}

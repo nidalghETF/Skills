@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/skill-manifest-validator",
+  "version": "1.0.0",
+  "description": "Validate SKILL.md format, required fields, and skill manifest compliance",
+  "main": "index.js",
+  "dependencies": {
+    "yaml|front-matter": "^1.0.0"
+  }}
+}

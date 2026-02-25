@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/supply-chain-validator",
+  "version": "1.0.0",
+  "description": "Validate skill vetting and dependency verification for supply chain security",
+  "main": "index.js",
+  "dependencies": {
+    "sigstore|cosign": "^1.0.0"
+  }}
+}
