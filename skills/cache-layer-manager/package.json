@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/cache-layer-manager",
+  "version": "1.0.0",
+  "description": "Manage in-memory and disk-backed caches with TTL and eviction policies",
+  "main": "index.js",
+  "dependencies": {
+    "node-cache": "^1.0.0"
+  }}
+}

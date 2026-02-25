@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/channel-manager-20plus",
+  "version": "1.0.0",
+  "description": "Manage complete channel list: WhatsApp, Signal, iMessage, Telegram, Discord, Slack, Matrix, Zalo, Line, Feishu, Google Chat, MS Teams, Nostr, Twitch, Mattermost",
+  "main": "index.js",
+  "dependencies": {
+    "channel-sdks": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/cli-autocomplete-manager",
+  "version": "1.0.0",
+  "description": "Manage Commander.js CLI with @clack/prompts integration and autocompletion",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^1.0.0"
+  }}
+}

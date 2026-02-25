@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/clawdhub-package-manager",
+  "version": "1.0.0",
+  "description": "Manage skill packages via clawdhub CLI with Homebrew integration",
+  "main": "index.js",
+  "dependencies": {
+    "clawdhub-cli": "^1.0.0"
+  }}
+}

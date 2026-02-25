@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/calendar-scheduler",
+  "version": "1.0.0",
+  "description": "Integrate with Google Calendar, Outlook, and CalDAV for scheduling",
+  "main": "index.js",
+  "dependencies": {
+    "google-calendar|outlook|calDAV": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/cloud-storage-binder",
+  "version": "1.0.0",
+  "description": "Integrate S3, GCS, Azure Blob for cloud storage operations",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk|@google-cloud/storage": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/cloud-storage-integrator",
+  "version": "1.0.0",
+  "description": "Integrate with Box, Google Drive, Dropbox for file operations",
+  "main": "index.js",
+  "dependencies": {
+    "box-sdk|google-drive|dropbox": "^1.0.0"
+  }}
+}
