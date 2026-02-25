@@ -1,0 +1,10 @@
+{
+  "name": "@openclaw-skills/realtime-transcription",
+  "version": "1.0.0",
+  "description": "Manage live transcription architecture with streaming audio processing",
+  "main": "index.js",
+  "dependencies": {
+    "openai-whisper": "^1.0.0",
+    "stream-processing": "^1.0.0"
+  }}
+}

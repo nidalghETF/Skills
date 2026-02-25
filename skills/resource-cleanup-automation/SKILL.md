@@ -1,0 +1,118 @@
+---
+name: Resource Cleanup Automation
+version: 1.0.0
+description: Clean up orphaned volumes, temporary files, and unused resources
+author: OpenClaw SysAdmin Community
+tags: [11, sysadmin, cron]
+trigger:
+  type: cron
+  schedule: "0 4 * * *"
+  enabled: true
+input:
+  cleanup_targets:
+    type: array
+    description: Targets to clean
+    required: True
+  dry_run:
+    type: boolean
+    description: Preview cleanup
+    required: False
+output:
+  status: string
+  details: object
+  bytes_freed: number
+dependencies:
+  - openclaw/fs
+  - openclaw/exec
+security:
+  - Validate cleanup targets; prevent accidental deletion; audit cleanup actions per Category 8
+  - Validate all inputs per Category 8
+  - Use least privilege principle
+  - Log all operations for audit
+---
+
+# Resource Cleanup Automation
+
+## Description
+
+Clean up orphaned volumes, temporary files, and unused resources
+
+## Source Reference
+
+This skill is derived from **11. Maintenance & Upkeep Operations** of the OpenClaw Agent Mastery Index v4.1.
+
+**Sub-heading**: Resource Cleanup Automation
+
+**Complexity**: low
+
+## Input Parameters
+
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+| `cleanup_targets` | array | Yes | Targets to clean |
+| `dry_run` | boolean | No | Preview cleanup |
+
+## Output Format
+
+```json
+{
+  "status": <string>,
+  "details": <object>,
+  "bytes_freed": <number>
+}
+```
+
+## Usage Examples
+
+### Example 1: Basic Usage
+
+```javascript
+const result = await openclaw.skill.run('resource-cleanup-automation', {
+  cleanup_targets: 123
+});
+```
+
+### Example 2: With Optional Parameters
+
+```javascript
+const result = await openclaw.skill.run('resource-cleanup-automation', {
+  cleanup_targets: [],
+  dry_run: true
+});
+```
+
+## Security Considerations
+
+Validate cleanup targets; prevent accidental deletion; audit cleanup actions per Category 8
+
+### Additional Security Measures
+
+1. **Input Validation**: All inputs are validated before processing
+2. **Least Privilege**: Operations run with minimal required permissions
+3. **Audit Logging**: All actions are logged for security review
+4. **Error Handling**: Errors are sanitized before returning to caller
+
+## Troubleshooting
+
+### Common Issues
+
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| Permission denied | Insufficient privileges | Check file/directory permissions |
+| Invalid input | Malformed parameters | Validate input format |
+| Dependency missing | Required module not installed | Run `npm install` |
+
+### Debug Mode
+
+Enable debug logging:
+```javascript
+openclaw.logger.setLevel('debug');
+const result = await openclaw.skill.run('resource-cleanup-automation', { ... });
+```
+
+## Related Skills
+
+- `disk-space-monitor`
+- `cache-layer-manager`
+ * @param {Array} params.cleanup_targets - Targets to clean
+ * @param {boolean} params.dry_run - Preview cleanup

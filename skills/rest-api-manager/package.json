@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/rest-api-manager",
+  "version": "1.0.0",
+  "description": "Manage internal API patterns and external service integration with rate limiting",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.0.0"
+  }}
+}

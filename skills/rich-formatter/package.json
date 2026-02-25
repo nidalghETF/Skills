@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/rich-formatter",
+  "version": "1.0.0",
+  "description": "Format responses with cards, buttons, lists, and markdown rendering",
+  "main": "index.js",
+  "dependencies": {
+    "markdown-it": "^1.0.0"
+  }}
+}

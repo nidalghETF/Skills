@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/rate-limit-enforcer",
+  "version": "1.0.0",
+  "description": "Enforce API rate limits with intelligent backoff strategies",
+  "main": "index.js",
+  "dependencies": {
+    "rate-limiter-flexible": "^1.0.0"
+  }}
+}

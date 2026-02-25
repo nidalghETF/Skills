@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/reverse-proxy-integration",
+  "version": "1.0.0",
+  "description": "Configure Nginx, Caddy, or Traefik as reverse proxy for OpenClaw gateway",
+  "main": "index.js",
+  "dependencies": {
+    "nginx|caddy|traefik": "^1.0.0"
+  }}
+}

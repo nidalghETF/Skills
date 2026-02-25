@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/realtime-voice-mode",
+  "version": "1.0.0",
+  "description": "Configure Voice Wake on macOS/iOS/Android with low-latency streaming",
+  "main": "index.js",
+  "dependencies": {
+    "platform-specific-voice": "^1.0.0"
+  }}
+}

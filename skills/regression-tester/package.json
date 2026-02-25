@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/regression-tester",
+  "version": "1.0.0",
+  "description": "Prevent regression with automated test suites",
+  "main": "index.js",
+  "dependencies": {
+    "jest|mocha": "^1.0.0"
+  }}
+}
