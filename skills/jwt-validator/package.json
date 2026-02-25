@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/jwt-validator",
+  "version": "1.0.0",
+  "description": "Validate JWT tokens and process claims for authentication",
+  "main": "index.js",
+  "dependencies": {
+    "jsonwebtoken": "^1.0.0"
+  }}
+}

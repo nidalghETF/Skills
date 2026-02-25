@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/integration-tester",
+  "version": "1.0.0",
+  "description": "Run cross-component integration tests",
+  "main": "index.js",
+  "dependencies": {
+    "supertest|axios": "^1.0.0"
+  }}
+}

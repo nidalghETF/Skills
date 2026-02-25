@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/headless-browser-manager",
+  "version": "1.0.0",
+  "description": "Manage Puppeteer/Playwright integration for web automation",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer|playwright": "^1.0.0"
+  }}
+}

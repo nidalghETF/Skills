@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/log-pattern-analysis",
+  "version": "1.0.0",
+  "description": "Analyze logs for patterns and detect anomalies automatically",
+  "main": "index.js",
+  "dependencies": {
+    "anomaly-detection": "^1.0.0"
+  }}
+}

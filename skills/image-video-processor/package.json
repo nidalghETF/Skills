@@ -1,0 +1,10 @@
+{
+  "name": "@openclaw-skills/image-video-processor",
+  "version": "1.0.0",
+  "description": "Process video frames, images with sharp library, and OCR pipelines",
+  "main": "index.js",
+  "dependencies": {
+    "sharp": "^1.0.0",
+    "tesseract.js": "^1.0.0"
+  }}
+}

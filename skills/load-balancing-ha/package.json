@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/load-balancing-ha",
+  "version": "1.0.0",
+  "description": "Configure multi-instance deployment with load balancing for high availability",
+  "main": "index.js",
+  "dependencies": {
+    "nginx|haproxy": "^1.0.0"
+  }}
+}

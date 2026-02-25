@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/local-model-deployer",
+  "version": "1.0.0",
+  "description": "Deploy and manage Ollama, vLLM for local inference with resource optimization",
+  "main": "index.js",
+  "dependencies": {
+    "ollama|vllm": "^1.0.0"
+  }}
+}

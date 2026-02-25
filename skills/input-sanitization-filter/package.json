@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/input-sanitization-filter",
+  "version": "1.0.0",
+  "description": "Defend against prompt injection with 27 attack pattern detection and filtering",
+  "main": "index.js",
+  "dependencies": {
+    "sanitization-library": "^1.0.0"
+  }}
+}

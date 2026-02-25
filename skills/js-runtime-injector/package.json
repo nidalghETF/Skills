@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/js-runtime-injector",
+  "version": "1.0.0",
+  "description": "Inject custom UI scripts for runtime customization",
+  "main": "index.js",
+  "dependencies": {
+    "vm2|isolated-vm": "^1.0.0"
+  }}
+}

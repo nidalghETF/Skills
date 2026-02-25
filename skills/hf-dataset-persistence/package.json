@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/hf-dataset-persistence",
+  "version": "1.0.0",
+  "description": "Manage ephemeral storage backup strategy for HuggingFace Spaces",
+  "main": "index.js",
+  "dependencies": {
+    "huggingface-hub": "^1.0.0"
+  }}
+}

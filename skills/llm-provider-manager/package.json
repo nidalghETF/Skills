@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/llm-provider-manager",
+  "version": "1.0.0",
+  "description": "Manage 15+ integrated LLM providers with unified interface and failover",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.0.0"
+  }}
+}

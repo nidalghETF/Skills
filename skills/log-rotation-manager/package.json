@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/log-rotation-manager",
+  "version": "1.0.0",
+  "description": "Manage log rotation for gateway.log and gateway.err.log",
+  "main": "index.js",
+  "dependencies": {
+    "logrotate": "^1.0.0"
+  }}
+}

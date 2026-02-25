@@ -1,0 +1,10 @@
+{
+  "name": "@openclaw-skills/hf-spaces-deployer",
+  "version": "1.0.0",
+  "description": "Deploy OpenClaw to HuggingFace Spaces with persistence and keepalive configuration",
+  "main": "index.js",
+  "dependencies": {
+    "git": "^1.0.0",
+    "huggingface-cli": "^1.0.0"
+  }}
+}
