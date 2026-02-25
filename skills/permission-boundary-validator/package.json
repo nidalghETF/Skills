@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/permission-boundary-validator",
+  "version": "1.0.0",
+  "description": "Implement and validate RBAC/ABAC permission boundaries",
+  "main": "index.js",
+  "dependencies": {
+    "casbin": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/oauth-oidc-manager",
+  "version": "1.0.0",
+  "description": "Implement social login integration with OAuth2 and OpenID Connect",
+  "main": "index.js",
+  "dependencies": {
+    "openid-client": "^1.0.0"
+  }}
+}

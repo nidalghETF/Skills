@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/offline-first-architect",
+  "version": "1.0.0",
+  "description": "Design disconnected operation with local inference and sync-on-connect",
+  "main": "index.js",
+  "dependencies": {
+    "local-model-deployer": "^1.0.0"
+  }}
+}

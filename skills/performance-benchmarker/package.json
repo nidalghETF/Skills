@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/performance-benchmarker",
+  "version": "1.0.0",
+  "description": "Run latency and throughput benchmarks against defined targets",
+  "main": "index.js",
+  "dependencies": {
+    "benchmark.js": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/parallel-executor",
+  "version": "1.0.0",
+  "description": "Coordinate multi-task execution with concurrency limits",
+  "main": "index.js",
+  "dependencies": {
+    "p-limit": "^1.0.0"
+  }}
+}

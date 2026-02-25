@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/pii-detection-redactor",
+  "version": "1.0.0",
+  "description": "Detect and redact personally identifiable information for privacy protection",
+  "main": "index.js",
+  "dependencies": {
+    "presidio|pii-detector": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/performance-bottleneck-id",
+  "version": "1.0.0",
+  "description": "Identify CPU, I/O, and network performance bottlenecks",
+  "main": "index.js",
+  "dependencies": {
+    "0x|clinic": "^1.0.0"
+  }}
+}
