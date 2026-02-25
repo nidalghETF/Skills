@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/bitdefender-predeploy-checker",
+  "version": "1.0.0",
+  "description": "Mandatory pre-deployment security validation with Bitdefender",
+  "main": "index.js",
+  "dependencies": {
+    "bitdefender-api": "^1.0.0"
+  }}
+}

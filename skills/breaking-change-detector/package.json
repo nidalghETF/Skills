@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/breaking-change-detector",
+  "version": "1.0.0",
+  "description": "Detect breaking changes and provide mitigation strategies",
+  "main": "index.js",
+  "dependencies": {
+    "changelog-parser": "^1.0.0"
+  }}
+}

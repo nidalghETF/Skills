@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/bitdefender-skills-checker",
+  "version": "1.0.0",
+  "description": "Pre-deployment security validation scanning for backdoors, data exfiltration, and prompt injection",
+  "main": "index.js",
+  "dependencies": {
+    "bitdefender-api": "^1.0.0"
+  }}
+}

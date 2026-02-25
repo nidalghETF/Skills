@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/blue-green-deployer",
+  "version": "1.0.0",
+  "description": "Implement safe rollout patterns with blue/green and canary deployments",
+  "main": "index.js",
+  "dependencies": {
+    "load-balancer": "^1.0.0"
+  }}
+}
