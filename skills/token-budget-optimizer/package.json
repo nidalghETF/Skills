@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/token-budget-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize token usage and manage context window for cost control",
+  "main": "index.js",
+  "dependencies": {
+    "tiktoken": "^1.0.0"
+  }}
+}

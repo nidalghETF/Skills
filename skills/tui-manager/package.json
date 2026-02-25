@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/tui-manager",
+  "version": "1.0.0",
+  "description": "Manage text-based user interface with streaming improvements",
+  "main": "index.js",
+  "dependencies": {
+    "blessed|ink": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/workflow-state-machine",
+  "version": "1.0.0",
+  "description": "Design and execute DAG-based workflows with state management",
+  "main": "index.js",
+  "dependencies": {
+    "dag-builder": "^1.0.0"
+  }}
+}

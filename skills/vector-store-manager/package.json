@@ -1,0 +1,10 @@
+{
+  "name": "@openclaw-skills/vector-store-manager",
+  "version": "1.0.0",
+  "description": "Manage SQLite-vec and LanceDB for embedding storage and retrieval",
+  "main": "index.js",
+  "dependencies": {
+    "sqlite-vec": "^1.0.0",
+    "lancedb": "^1.0.0"
+  }}
+}

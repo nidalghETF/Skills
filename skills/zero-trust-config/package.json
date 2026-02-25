@@ -1,0 +1,10 @@
+{
+  "name": "@openclaw-skills/zero-trust-config",
+  "version": "1.0.0",
+  "description": "Configure mTLS and service mesh for zero-trust security",
+  "main": "index.js",
+  "dependencies": {
+    "cert-manager": "^1.0.0",
+    "istio|linkerd": "^1.0.0"
+  }}
+}

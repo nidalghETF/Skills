@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/task-delegator",
+  "version": "1.0.0",
+  "description": "Distribute work across agents with intelligent task delegation",
+  "main": "index.js",
+  "dependencies": {
+    "load-balancer": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/vad-detector",
+  "version": "1.0.0",
+  "description": "Implement speech detection algorithms for efficient audio processing",
+  "main": "index.js",
+  "dependencies": {
+    "silero-vad|webrtc-vad": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/webhook-manager",
+  "version": "1.0.0",
+  "description": "Manage incoming webhooks with signature verification and secure processing",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "^1.0.0"
+  }}
+}

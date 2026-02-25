@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/version-diff-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze version differences with SemVer compliance and breaking change detection",
+  "main": "index.js",
+  "dependencies": {
+    "semver": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/websocket-server-manager",
+  "version": "1.0.0",
+  "description": "Manage gateway control plane WebSocket server on port 18789 with real-time updates",
+  "main": "index.js",
+  "dependencies": {
+    "ws": "^1.0.0"
+  }}
+}

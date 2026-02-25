@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/threat-model-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze threat model with gateway host as trust boundary",
+  "main": "index.js",
+  "dependencies": {
+    "threat-modeling": "^1.0.0"
+  }}
+}

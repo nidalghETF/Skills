@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/text-to-speech-manager",
+  "version": "1.0.0",
+  "description": "Integrate Edge TTS, ElevenLabs, and OpenAI TTS for voice synthesis",
+  "main": "index.js",
+  "dependencies": {
+    "edge-tts|elevenlabs": "^1.0.0"
+  }}
+}

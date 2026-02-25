@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/volume-mount-strategy",
+  "version": "1.0.0",
+  "description": "Design and manage data volumes for HuggingFace Spaces persistence and local deployments",
+  "main": "index.js",
+  "dependencies": {
+    "docker-cli": "^1.0.0"
+  }}
+}
