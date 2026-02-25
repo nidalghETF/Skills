@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/fathom-meeting-integrator",
+  "version": "1.0.0",
+  "description": "Integrate with Fathom for meeting transcription and follow-up",
+  "main": "index.js",
+  "dependencies": {
+    "fathom-api": "^1.0.0"
+  }}
+}

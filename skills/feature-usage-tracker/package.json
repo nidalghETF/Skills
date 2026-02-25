@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/feature-usage-tracker",
+  "version": "1.0.0",
+  "description": "Track feature usage with analytics and telemetry",
+  "main": "index.js",
+  "dependencies": {
+    "analytics": "^1.0.0"
+  }}
+}

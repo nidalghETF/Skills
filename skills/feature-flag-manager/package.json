@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/feature-flag-manager",
+  "version": "1.0.0",
+  "description": "Manage runtime feature control with feature flags and toggles",
+  "main": "index.js",
+  "dependencies": {
+    "unleash|launchdarkly": "^1.0.0"
+  }}
+}

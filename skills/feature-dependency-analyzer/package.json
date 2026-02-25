@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/feature-dependency-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze feature interactions and detect conflicts",
+  "main": "index.js",
+  "dependencies": {
+    "dependency-graph": "^1.0.0"
+  }}
+}

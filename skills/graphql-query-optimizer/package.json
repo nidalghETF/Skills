@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/graphql-query-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize GraphQL API patterns with query complexity analysis and caching",
+  "main": "index.js",
+  "dependencies": {
+    "graphql": "^1.0.0"
+  }}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/grpc-service-manager",
+  "version": "1.0.0",
+  "description": "Manage high-performance gRPC services for inter-service communication",
+  "main": "index.js",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.0.0"
+  }}
+}

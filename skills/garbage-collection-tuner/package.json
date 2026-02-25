@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/garbage-collection-tuner",
+  "version": "1.0.0",
+  "description": "Optimize Node.js garbage collection for memory performance",
+  "main": "index.js",
+  "dependencies": {
+    "node-v8-flags": "^1.0.0"
+  }}
+}

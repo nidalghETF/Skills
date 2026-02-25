@@ -1,0 +1,9 @@
+{
+  "name": "@openclaw-skills/google-workspace-integrator",
+  "version": "1.0.0",
+  "description": "Integrate with Google Workspace using gog CLI for email and calendar",
+  "main": "index.js",
+  "dependencies": {
+    "googleapis": "^1.0.0"
+  }}
+}
